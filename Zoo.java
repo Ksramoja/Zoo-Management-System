@@ -19,7 +19,7 @@ import java.util.List;
         zooKeeper.listenToAnimals(animals);
 
         System.out.println("Demonstrating polymorphism with overloaded methods");
-        animals.get(0).makeSound(3);
+        animals.get(0).makeSound(4);
         animals.get(1).eat("fruits");
         animals.get(2).eat("nuts");
     }
